@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutReachJeju23", "OutReachJeju23\OutReachJeju23.csproj", "{66A0BF42-57E4-46E4-B62C-37BCB4753A5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66A0BF42-57E4-46E4-B62C-37BCB4753A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A0BF42-57E4-46E4-B62C-37BCB4753A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A0BF42-57E4-46E4-B62C-37BCB4753A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A0BF42-57E4-46E4-B62C-37BCB4753A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D90E172-1CC7-46CC-AEA7-3AB68D60393E}
+	EndGlobalSection
+EndGlobal
