@@ -2,11 +2,12 @@
 @inject HttpClient Http
 @using OutReachJeju23.Shared
 
-<PageTitle>Weather forecast</PageTitle>
+<PageTitle>준비중</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Weather forecast</MudText>
-<MudText Class="mb-8">This component demonstrates fetching data from the server.</MudText>
-@if (forecasts == null)
+<MudText Typo="Typo.h3" GutterBottom="true">준비중</MudText>
+@*<MudText Class="mb-8">This component demonstrates fetching data from the server.</MudText>*@
+
+@*@if (forecasts == null)
 {
     <MudProgressCircular Color="Color.Default" Indeterminate="true" />
 }
@@ -29,16 +30,16 @@ else
             <MudTablePager PageSizeOptions="new int[]{50, 100}" />
         </PagerContent>
     </MudTable>
-}
+}*@
 
 
 @code {
     private WeatherForecast[]? forecasts;
 
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-    }
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    //}
     public class WeatherForecast
     {
         public DateTime Date { get; set; }
